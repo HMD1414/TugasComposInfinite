@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">GorenganHunterApp</string>
+    <string name="halaman_home">Home</string>
+    <string name="halaman_list">List</string>
+    <string name="halaman_Profil">Profil</string>
+    <string name="halaman_kembali">kembali</string>
+    <string name="halaman_detail">detail</string>
+    <string name="halaman_detailpenjual">detailpenjual</string>
+    <string name="arrow_keluar">keluar</string>
+</resources>
