@@ -21,7 +21,7 @@ sealed class Screen (val route: String, val title: String){
                     else if (route?.startsWith("detailPenjual/") == true){
                         DetailPenjual
                     } else {
-                        throw IllegalArgumentException("salah ngab ga ada route")
+                        throw IllegalArgumentException("no")
                     }
                 }
 
