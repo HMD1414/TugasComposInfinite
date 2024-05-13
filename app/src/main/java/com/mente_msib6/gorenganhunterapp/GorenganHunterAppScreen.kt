@@ -7,10 +7,7 @@ import androidx.compose.material.icons.filled.ArrowForwardIos
 import androidx.compose.material.icons.filled.AssignmentTurnedIn
 import androidx.compose.material.icons.filled.Home
 import androidx.compose.material.icons.filled.PersonPin
-import androidx.compose.material.icons.filled.Topic
-import androidx.compose.material3.AlertDialogDefaults.containerColor
 import androidx.compose.material3.BottomAppBar
-import androidx.compose.material3.BottomAppBarDefaults
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
