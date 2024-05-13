@@ -4,9 +4,9 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowForwardIos
-import androidx.compose.material.icons.filled.BrowseGallery
+import androidx.compose.material.icons.filled.AssignmentTurnedIn
 import androidx.compose.material.icons.filled.Home
-import androidx.compose.material.icons.filled.Share
+import androidx.compose.material.icons.filled.PersonPin
 import androidx.compose.material.icons.filled.Topic
 import androidx.compose.material3.AlertDialogDefaults.containerColor
 import androidx.compose.material3.BottomAppBar
@@ -58,10 +58,8 @@ fun GorenganHunterAppScreen(
     modifier: Modifier = Modifier,
     navController: NavHostController = rememberNavController()
 ) {
-    val context = LocalContext.current
 
     val currentRoute = navController.currentBackStackEntryAsState().value?.destination?.route?: Screen.Home.route
-
     val backgroundColor = Color(android.graphics.Color.parseColor("#E25E3E"))
     val currentScreen = remember(currentRoute) {
         Screen.LocationRoute(currentRoute)
@@ -153,12 +151,12 @@ private fun NavBaar(
             ),
             NavigationItem(
                 title = stringResource(id = R.string.halaman_list),
-                icon = Icons.Default.BrowseGallery,
+                icon = Icons.Default.AssignmentTurnedIn,
                 screen = Screen.List
             ),
             NavigationItem(
                 title = stringResource(id = R.string.halaman_Profil),
-                icon = Icons.Default.Topic,
+                icon = Icons.Default.PersonPin,
                 screen = Screen.Profil
             ),
          
